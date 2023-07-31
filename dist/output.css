@@ -615,6 +615,10 @@ video {
   align-self: flex-end;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .border-t-\[5px\] {
   border-top-width: 5px;
 }
@@ -643,9 +647,13 @@ video {
   border-color: rgb(252 175 74 / var(--tw-border-opacity));
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .py-1 {
